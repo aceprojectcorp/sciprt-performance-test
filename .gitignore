@@ -1,0 +1,9 @@
+# osx noise
+.DS_Store
+
+# eclipse
+/target*/
+/.settings/
+/.classpath
+/src/main/resources/rebel.xml
+/bin/
