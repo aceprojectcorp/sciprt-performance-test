@@ -504,7 +504,7 @@ public class Application {
 			System.out.println("===== " + (i + 1) + " =====");
 			System.out.println("native : " + app.testNative(count) + " ms");
 			System.out.println("rhino (compiledScript) : " + app.testRhinoCompiledScript(count) + " ms");
-			System.out.println("nashron (invokeFunction) : " + app.testRhinoInvokeFunction(count) + " ms");
+			System.out.println("rhino (invokeFunction) : " + app.testRhinoInvokeFunction(count) + " ms");
 			System.out.println("nashron (compiledScript) : " + app.testNashornCompiledScript(count) + " ms");
 			System.out.println("nashron (invokeFunction) : " + app.testNashornInvokeFunction(count) + " ms");
 			System.out.println("groovy (compiledScript) : " + app.testGroovyCompiledScript(count) + " ms");
